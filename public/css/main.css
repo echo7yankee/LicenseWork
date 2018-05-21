@@ -917,7 +917,7 @@ body {
   @media (max-width: 37.5em) {
     .navbar-container {
       opacity: 0;
-      height: 15rem; } }
+      height: 16rem; } }
 
 .navbar {
   width: 90%;
