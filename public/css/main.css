@@ -388,7 +388,8 @@ body {
   -webkit-text-fill-color: transparent;
   letter-spacing: .2rem;
   transition: all .2s;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  text-shadow: 0.5rem 1rem 1.5rem rgba(0, 0, 0, 0.15); }
   @media (max-width: 75em) {
     .heading-secondary-title {
       font-size: 3rem;
@@ -404,7 +405,7 @@ body {
   .heading-secondary-title:hover {
     -webkit-transform: skewY(2deg) skewX(15deg);
             transform: skewY(2deg) skewX(15deg);
-    text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
+    text-shadow: 2rem 1.5rem 0.7rem rgba(0, 0, 0, 0.6); }
 
 .heading-tertiary {
   color: rgba(12, 5, 41, 0.8);
@@ -887,7 +888,7 @@ body {
       height: 15rem; } }
 
 .sticky-nav .navbar__logo-container {
-  max-width: 500rem;
+  max-width: 50rem;
   flex: 0 0 55%;
   opacity: 1;
   -webkit-transform: translateX(10rem);
